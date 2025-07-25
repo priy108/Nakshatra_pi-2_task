@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN PAGE</title>
+</head>
+<body>
+	<h1>LOGIN</h1>
+	<p><span id="Login_id">ENTER USERNAME</span></p>
+	<input type="" name="LOGIN">
+	<p>ENTER PASSWORD</p>
+	<input type="" name="PASSWORD">
+	<section id="buttons">
+		<button id="login-btn">LOGIN</button>
+		<button onclick="open_w()">FORGOT PASSWORD</button>
+	</section>
+	
+</body>
+<script type="text/javascript">
+	function open_w() {
+		window.open("email.html", "_blank")
+	}
+</script>
+<style type="text/css">
+	button{
+		margin-top: 10px;
+		padding: 5px 5px;
+		font-size: 6px;
+		margin-left: 20px;
+	}
+	section{
+		font-size: 2px;
+	}
+
+	button:hover {
+		background-color: black;
+		color: white;
+	}
+	#login-btn{
+		margin-left: 0px;
+		padding: 5px 25px;
+		margin-top: 10px;
+	}
+</style>
+</html>
